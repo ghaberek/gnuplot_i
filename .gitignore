@@ -1,0 +1,4 @@
+gnuplot_i.o
+libgnuplot_i.dll
+libgnuplot_i.so
+ex.err
