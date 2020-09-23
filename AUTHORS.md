@@ -1,0 +1,7 @@
+Initial author: N. Devillard <ndevilla@free.fr>
+
+Numerous authors have contributed to this package.
+
+Latest version heavily modified by Peter Maresh to compile and run on Windows 7/64 using mingw64. Thanks!
+
+Euphoria wrapper and demos added by Greg Haberek <ghaberek@gmail.com>
