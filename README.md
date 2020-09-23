@@ -5,7 +5,7 @@ gnuplot_i: a short documentation
 
 The procedure to follow to display graphics in a gnuplot session is:
 
-1. Open a new gnuplot session, referenced by a handle of type (pointer to) `gnuplot_ctrl`. This is done by `calling gnuplot_init()`:
+1. Open a new gnuplot session, referenced by a handle of type (pointer to) `gnuplot_ctrl`. This is done by calling `gnuplot_init()`:
 
         gnuplot_ctrl * h ;
         h = gnuplot_init() ;
@@ -85,7 +85,7 @@ The procedure to follow to display graphics in a gnuplot session is:
 
 
 Some more points before you start using gnuplot_i
-=================================================
+-------------------------------------------------
 
 gnuplot_i is completely free software. Use it for whatever you want to do with it without any fee, and do not hesitate to send feedback to me if you wish:
 
@@ -124,7 +124,9 @@ No programming so far of 'splot' related commands. Should you implement some, I 
 
 
 To compile and run the examples
-===============================
+-------------------------------
+
+To make a shared library:
 
 You can use the provided Makefile, or compile by hand:
 
@@ -141,6 +143,10 @@ To compile if you want to use the Makefile:
 
     % make
     % make tests
+
+To make a shared library:
+
+    % make shared
 
 Try it out to see if it works:
 
