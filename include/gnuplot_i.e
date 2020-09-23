@@ -498,7 +498,7 @@ global function gnuplot_write_xy_csv( sequence fileName, sequence xpoints, seque
 		poke( pypoints + (i-1) * SIZEOF_DOUBLE, atom_to_float64(ypoints[i]) )
 	end for
 	
-	result = c_func( xgnuplot_write_x_csv, {pfileName,pxpoints,pypoints,n,ptitle} )
+	result = c_func( xgnuplot_write_xy_csv, {pfileName,pxpoints,pypoints,n,ptitle} )
 	
 	free( pfileName )
 	free( pxpoints )
